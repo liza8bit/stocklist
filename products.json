@@ -1,0 +1,86 @@
+[
+  {
+    "category": "Magic", 
+    "price": "$254.31", 
+    "stocked": true, 
+    "name": "eu17"
+  }, 
+  {
+    "category": "Magic", 
+    "price": "$181.67", 
+    "stocked": false, 
+    "name": "culpa30"
+  }, 
+  {
+    "category": "Potions", 
+    "price": "$419.49", 
+    "stocked": true, 
+    "name": "duis41"
+  }, 
+  {
+    "category": "Potions", 
+    "price": "$233.14", 
+    "stocked": true, 
+    "name": "deserunt57"
+  }, 
+  {
+    "category": "Magic", 
+    "price": "$288.81", 
+    "stocked": true, 
+    "name": "do64"
+  }, 
+  {
+    "category": "Frogs", 
+    "price": "$121.38", 
+    "stocked": false, 
+    "name": "anim44"
+  }, 
+  {
+    "category": "Magic", 
+    "price": "$264.42", 
+    "stocked": true, 
+    "name": "qui60"
+  }, 
+  {
+    "category": "Frogs", 
+    "price": "$1.09", 
+    "stocked": true, 
+    "name": "reprehenderit27"
+  }, 
+  {
+    "category": "Magic", 
+    "price": "$432.46", 
+    "stocked": false, 
+    "name": "aliqua61"
+  }, 
+  {
+    "category": "Potions", 
+    "price": "$65.32", 
+    "stocked": true, 
+    "name": "proident65"
+  }, 
+  {
+    "category": "Frogs", 
+    "price": "$135.72", 
+    "stocked": true, 
+    "name": "aliqua32"
+  }, 
+  {
+    "category": "Potions", 
+    "price": "$397.01", 
+    "stocked": true, 
+    "name": "eu63"
+  }, 
+  {
+    "category": "Magic", 
+    "price": "$176.97", 
+    "stocked": true, 
+    "name": "mollit2"
+  },
+  {
+    "category": "Markers",
+    "price": "$2.00",
+    "stocked": false,
+    "name": "Marcus"
+  }
+]
