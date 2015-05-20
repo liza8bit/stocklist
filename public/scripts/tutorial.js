@@ -4,20 +4,21 @@ var AddProduct = React.createClass({
     var cat=React.findDOMNode(this.refs.category).value.trim();
     var name=React.findDOMNode(this.refs.name).value.trim();
     var price = React.findDOMNode(this.refs.price).value.trim();
-    var stock = React.findDOMNode(this.refs.stocked).value();
-    if(!cat || !product || !price){
+    var stock = React.findDOMNode(this.refs.stocked).checked;
+    if(!cat || !name || !price){
       return;
     }
     this.props.onSubmit({category: cat, price: price, stocked: stock, name: name});
     React.findDOMNode(this.refs.category).value='';
     React.findDOMNode(this.refs.name).value='';
     React.findDOMNode(this.refs.price).value='';
+    React.findDOMNode(this.refs.stocked).checked = false;
   },
   render: function() {
     return (
         <div className="addProduct">
         <h3> Add a product </h3>
-        <form className="commentForm">
+        <form className="commentForm" onSubmit={this.handleSubmit}>
         <input type="text" placeholder= "Category" ref="category"/>
         <input type="text" placeholder= "Product" ref="name"/>
         <input type="text" placeholder= "Price" ref="price"/>
@@ -93,7 +94,7 @@ var ProductList = React.createClass({
   handleAddProduct: function(product) {
     var products = this.state.data;
     products.push(product);
-    this.setState({data: comments}, function(){
+    this.setState({data: products}, function(){
       $.ajax({
         url:this.props.url,
         dataType: 'json',
