@@ -8,7 +8,7 @@ var AddProduct = React.createClass({
     if(!cat || !name || !price){
       return;
     }
-    this.props.onSubmit({category: cat, price: price, stocked: stock, name: name});
+    this.props.addProduct({category: cat, price: price, stocked: stock, name: name});
     React.findDOMNode(this.refs.category).value='';
     React.findDOMNode(this.refs.name).value='';
     React.findDOMNode(this.refs.price).value='';
@@ -117,7 +117,7 @@ var ProductList = React.createClass({
     return(
         <div className="ProductList">
         <h2>Products</h2>
-        <AddProduct onSubmit={this.handleAddProduct} />
+        <AddProduct addProduct={this.handleAddProduct} />
         <Table products={this.state.data}/>
         </div>
         );
