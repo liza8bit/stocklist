@@ -1,86 +1,98 @@
 [
-  {
-    "category": "Magic", 
-    "price": "$254.31", 
-    "stocked": true, 
-    "name": "eu17"
-  }, 
-  {
-    "category": "Magic", 
-    "price": "$181.67", 
-    "stocked": false, 
-    "name": "culpa30"
-  }, 
-  {
-    "category": "Potions", 
-    "price": "$419.49", 
-    "stocked": true, 
-    "name": "duis41"
-  }, 
-  {
-    "category": "Potions", 
-    "price": "$233.14", 
-    "stocked": true, 
-    "name": "deserunt57"
-  }, 
-  {
-    "category": "Magic", 
-    "price": "$288.81", 
-    "stocked": true, 
-    "name": "do64"
-  }, 
-  {
-    "category": "Frogs", 
-    "price": "$121.38", 
-    "stocked": false, 
-    "name": "anim44"
-  }, 
-  {
-    "category": "Magic", 
-    "price": "$264.42", 
-    "stocked": true, 
-    "name": "qui60"
-  }, 
-  {
-    "category": "Frogs", 
-    "price": "$1.09", 
-    "stocked": true, 
-    "name": "reprehenderit27"
-  }, 
-  {
-    "category": "Magic", 
-    "price": "$432.46", 
-    "stocked": false, 
-    "name": "aliqua61"
-  }, 
-  {
-    "category": "Potions", 
-    "price": "$65.32", 
-    "stocked": true, 
-    "name": "proident65"
-  }, 
-  {
-    "category": "Frogs", 
-    "price": "$135.72", 
-    "stocked": true, 
-    "name": "aliqua32"
-  }, 
-  {
-    "category": "Potions", 
-    "price": "$397.01", 
-    "stocked": true, 
-    "name": "eu63"
-  }, 
-  {
-    "category": "Magic", 
-    "price": "$176.97", 
-    "stocked": true, 
-    "name": "mollit2"
-  },
-  {
-    "category": "Markers",
-    "price": "$2.00",
-    "stocked": false,
-    "name": "Marcus"
-  }
+    {
+        "category": "Markers",
+        "price": 121.76,
+        "stocked": true,
+        "name": "commodo17"
+    },
+    {
+        "category": "Frogs",
+        "price": 423.47,
+        "stocked": false,
+        "name": "tempor52"
+    },
+    {
+        "category": "Frogs",
+        "price": 420.06,
+        "stocked": true,
+        "name": "Lorem57"
+    },
+    {
+        "category": "Potions",
+        "price": 466.38,
+        "stocked": false,
+        "name": "commodo35"
+    },
+    {
+        "category": "Frogs",
+        "price": 2.01,
+        "stocked": true,
+        "name": "incididunt31"
+    },
+    {
+        "category": "Potions",
+        "price": 212.34,
+        "stocked": false,
+        "name": "laboris49"
+    },
+    {
+        "category": "Markers",
+        "price": 221.76,
+        "stocked": true,
+        "name": "voluptate8"
+    },
+    {
+        "category": "Magic",
+        "price": 257.79,
+        "stocked": true,
+        "name": "elit55"
+    },
+    {
+        "category": "Potions",
+        "price": 133.94,
+        "stocked": true,
+        "name": "labore4"
+    },
+    {
+        "category": "Magic",
+        "price": 448.27,
+        "stocked": false,
+        "name": "laboris18"
+    },
+    {
+        "category": "Magic",
+        "price": 64.59,
+        "stocked": true,
+        "name": "fugiat22"
+    },
+    {
+        "category": "Frogs",
+        "price": 352.88,
+        "stocked": true,
+        "name": "fugiat19"
+    },
+    {
+        "category": "hello",
+        "price": "238.1",
+        "stocked": "false",
+        "name": "number"
+    },
+    {
+        "category": "Markers",
+        "price": "23",
+        "stocked": "false",
+        "name": "sdf"
+    },
+    {
+        "category": "Frogs",
+        "price": "2",
+        "stocked": "true",
+        "name": "dfdf"
+    },
+    {
+        "category": "Markers",
+        "price": "23",
+        "stocked": "true",
+        "name": "sdfd"
+    }
 ]
